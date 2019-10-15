@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: crdstart-nodeport
+  labels:
+    run: crdstart-nodeport
+spec:
+  ports:
+  - port: 6060
+    nodePort: 30257
+    protocol: TCP
+  externalName: crdstart.weibo.com
+  type: NodePort
+  selector:
+    app: de-crdstart

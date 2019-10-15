@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .DeploymentName }}
+#  finalizers:
+#  - apps/podlogsave.crdstart.idevz.org
+  labels:
+    app: {{ .DeploymentName }}
+#  ownerReferences:
+#    - apiVersion: apps/v1
+#      controller: true
+#      blockOwnerDeletion: true
+#      kind: ReplicaSet
+#      name: my-repset
+#      uid: d9607e19-f88f-11e6-a518-42010a800195
+spec:
+  selector:
+    matchLabels:
+      app: crdstart
+  replicas: {{ .Replicas }}
+  template:
+    metadata:
+      labels:
+        app: crdstart
+    spec:
+      containers:
+        - name: crdstart-test
+          securityContext:
+            privileged: true
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command: ['sh', '-c']
+          args:
+            - |
+              echo "=== start test ==="
+              sleep 10000
+              echo "=== test end ==="

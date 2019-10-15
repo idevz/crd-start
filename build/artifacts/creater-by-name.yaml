@@ -1,0 +1,9 @@
+apiVersion: crdstart.idevz.org/v1alpha1
+kind: Dcreater
+metadata:
+  name: creater-from-name
+#  finalizers:
+#  - podlogsave.crdstart.idevz.org
+spec:
+  deploymentName: deployment-create-by-dcreater
+  replicas: 3

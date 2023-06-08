@@ -538,6 +538,7 @@ k8s.io/kube-openapi v0.0.0-20190709113604-33be087ad058 h1:di3XCwddOR9cWBNpfgXask
 k8s.io/kube-openapi v0.0.0-20190709113604-33be087ad058/go.mod h1:nfDlWeOsu3pUf4yWGL+ERqohP4YsZcBJXWMK+gkzOA4=
 k8s.io/kubernetes v1.16.0-alpha.2.0.20190730231111-75d51896125b h1:ATsFqFz9CVZUll+yYn0aYL+X644aPLA/PgCeUAf5qU8=
 k8s.io/kubernetes v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:AKKYp7llHXoTwBRS4n3NZY0BEAKimn3zYjIaCl7ljIY=
+k8s.io/kubernetes v1.20.4 h1:gPeOspTx01shAQuFhae+O7ZfU0WKlD7RE5L0pooU0g8=
 k8s.io/kubernetes/staging/src/k8s.io/api v1.16.0-alpha.2.0.20190730231111-75d51896125b h1:qSfSOos+6jlSxNQ+nRf/bSsZtP7bbne60UQXpuNPmMQ=
 k8s.io/kubernetes/staging/src/k8s.io/api v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:LAfPSzeLhPmoNG3cWTnClyEHv8DA6hxJnD+iUCF+TEU=
 k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver v1.16.0-alpha.2.0.20190730231111-75d51896125b h1:EmKUTWtlXbs/uYYykRcZy/PVcNOW+vM8xgExZOwB97s=
@@ -547,6 +548,7 @@ k8s.io/kubernetes/staging/src/k8s.io/apimachinery v1.16.0-alpha.2.0.201907302311
 k8s.io/kubernetes/staging/src/k8s.io/apiserver v1.16.0-alpha.2.0.20190730231111-75d51896125b h1:YP75ZUrjrWR0tgJXCWgjacOFHB2vs7HYlQOKu57WdSQ=
 k8s.io/kubernetes/staging/src/k8s.io/apiserver v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:g3mlbFn51jPC+VwcSzXndOsD6MwRaMiCaQrkDx60DW4=
 k8s.io/kubernetes/staging/src/k8s.io/cli-runtime v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:3sqDgDoSOUwj+PAe9NSbbtebZ57gyEoSGwlS76M4hmQ=
+k8s.io/kubernetes/staging/src/k8s.io/client-go v0.0.0-20210221144541-89b9cf7d6fe8 h1:rs8NP5MSC1KwpKacMctgUsrSYqXajp3MluE59uR4jqM=
 k8s.io/kubernetes/staging/src/k8s.io/client-go v1.16.0-alpha.2.0.20190730231111-75d51896125b h1:qfHJ5hNY6E1jEiDEpSY+BKObkX9gKsOUO21bBK5vj3A=
 k8s.io/kubernetes/staging/src/k8s.io/client-go v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:2QpQ4eLxv7Ws6jcmctMZLR3LWckeuUmv+ZuHYONHxcQ=
 k8s.io/kubernetes/staging/src/k8s.io/cloud-provider v1.16.0-alpha.2.0.20190730231111-75d51896125b/go.mod h1:nH86Adm6hNjsx/nWXMn1fBZW65f31MhX+Rbz7lj9pIE=
